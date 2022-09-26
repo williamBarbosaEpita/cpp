@@ -25,5 +25,5 @@ int main()
         else
             cout << n << " is a prime: False\n";
     }
-    return EXIT_SUCCESS;
+    return EXIT_SUCCESS; 
 }

@@ -18,5 +18,5 @@ int main(int argc, char *argv[])
         if (word.find(argv[2]) != std::string::npos)
             res++;
     std::cout << "The file " << argv[1] << " contains " << res << " words containing the motive " << argv[2] << "\n";
-    return EXIT_SUCCESS;
+    return EXIT_SUCCESS; 
 }
