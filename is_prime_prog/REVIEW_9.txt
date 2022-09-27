@@ -1,0 +1,6 @@
+GROUPE 9 COMPOSE DE 
+EMMANUEL FAURA
+ANTOINE AUGER
+
+En retirant la condition pour i == 2 et en la mettant en dehors de la boucle, on peut incrémenter i de 2 en 2 pour optimiser le code.
+Le code ne semble pas avoir d'erreur.
