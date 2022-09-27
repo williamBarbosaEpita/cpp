@@ -1,0 +1,3 @@
+/home/william/ecol/sept/cpp/is_prime/CMakeFiles/rebuild_cache.dir
+/home/william/ecol/sept/cpp/is_prime/CMakeFiles/edit_cache.dir
+/home/william/ecol/sept/cpp/is_prime/CMakeFiles/main.dir
