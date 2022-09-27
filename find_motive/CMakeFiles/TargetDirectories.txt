@@ -1,3 +1,0 @@
-/home/william/ecol/sept/cpp/find_motive/CMakeFiles/rebuild_cache.dir
-/home/william/ecol/sept/cpp/find_motive/CMakeFiles/edit_cache.dir
-/home/william/ecol/sept/cpp/find_motive/CMakeFiles/main.dir
