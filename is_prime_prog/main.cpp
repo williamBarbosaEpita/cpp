@@ -16,13 +16,13 @@ bool isPrime(int n)
 
 int main()
 {
-    int n;
+    unsigned long int n;
     while(cin >> n)
     {
         if(isPrime(n))
-            cout << n << " is a prime: True\n";
+            std::cout << n << " is a prime: True" << std::endl;
         else
-            cout << n << " is a prime: False\n";
+            std::cout << n << " is a prime: False" << std::endl;
     }
     return EXIT_SUCCESS; 
 }
