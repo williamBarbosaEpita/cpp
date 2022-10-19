@@ -1,0 +1,7 @@
+Bonjour,
+
+Votre code passe le simple test.
+
+Bien cordialement,
+Joseph Predignac
+William Barbosa
