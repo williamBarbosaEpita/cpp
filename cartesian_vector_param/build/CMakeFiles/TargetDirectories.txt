@@ -1,3 +1,0 @@
-/home/ouiyam/sept/cpp/cartesian_vector_param/build/CMakeFiles/rebuild_cache.dir
-/home/ouiyam/sept/cpp/cartesian_vector_param/build/CMakeFiles/main.dir
-/home/ouiyam/sept/cpp/cartesian_vector_param/build/CMakeFiles/edit_cache.dir

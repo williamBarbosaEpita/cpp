@@ -27,18 +27,18 @@ public:
     // possibly more
 
 // Public Member functions here
-    Vector& operator+=(const Vector& rhs)
+    Vector& operator+=(const Vector& a)
     {
-        for (std::size_t i = 0; i < rhs.size(); i++)
-            (*_list)[i]+=rhs[i];
+        for (std::size_t i = 0; i < a.size(); i++)
+            (*_list)[i]+=a[i];
 
         return *this;
     }
 
-    Vector& operator-=(const Vector& rhs)
+    Vector& operator-=(const Vector& a)
     {
         int i;
-        for (i = 0; i < _list->size(); i++)(*_list)[i] -= rhs[i];
+        for (i = 0; i < _list->size(); i++)(*_list)[i] -= a[i];
         return *this;
     }
 
@@ -51,41 +51,41 @@ public:
     Vector operator+(const Vector &other)
     {
         Vector x{};
-        int idx = 0;
+        int a = 0;
         int i;
-        for (i = 0; i < other.size(); i++, idx++) { 
+        for (i = 0; i < other.size(); i++, a++) { 
             int l = other[i], r;
-            if (idx >= _list->size())
+            if (a >= _list->size())
                 r = 0;
             else
-                r = (*_list)[idx];
+                r = (*_list)[a];
             x += (l + r);
         }
         return x;
     }
 
-    Vector operator*(const int n)
+    Vector operator*(const int a)
     {
         Vector x{};
         std::size_t i;
         for (i = 0; i < _list->size(); i++) 
-            x += (*_list)[i] * n;
+            x += (*_list)[i] * a;
         return x;
     }
 
-    Vector &operator*=(const int n)
+    Vector &operator*=(const int a)
     {
         std::size_t i;
-        for (i = 0; i < _list->size(); i++) (*_list)[i] *= n;
+        for (i = 0; i < _list->size(); i++) (*_list)[i] *= a;
         return *this;
     }
 
     int operator*(const Vector &other)
     {
-        int idx = 0;
+        int a = 0;
         int res = 0;
         std::size_t i;
-        for (i = 0; i < _list->size(); i++, idx++) res += (other[i] * (*_list)[idx]);
+        for (i = 0; i < _list->size(); i++, a++) res += (other[i] * (*_list)[a]);
         return res;
     }
 
@@ -166,23 +166,23 @@ private:
 
 std::ostream& operator<<(std::ostream& os, const Vector& vector)
 {
-    if (vector.isEmpty())
+    if (!vector.isEmpty())
+    {
+        os << "{";
+        int i;
+        for (i = 0; i < vector.size(); i++) 
+        {
+            os << vector[i];
+            if (i + 1 != vector.size()) os << ",";
+        }
+        os << "}";
+        return os;
+    }
+    else
     {
         os << "{}";
         return os;
     }
-
-    os << "{";
-
-    for (int i = 0; i < vector.size(); i++) 
-    {
-        os << vector[i];
-        if (i + 1 != vector.size()) os << ",";
-    }
-
-    os << "}";
-
-    return os;
 }
 
 // Nonmember function operators go here
