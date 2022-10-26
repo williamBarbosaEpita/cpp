@@ -22,7 +22,6 @@ public:
 
 // Add suitable constructors
     Vector() : _list(std::make_shared<InternalContainer<int>>()){}
-
     Vector(std::initializer_list<int> list){_list = std::make_shared<InternalContainer<int>>(list);}
     // possibly more
 
@@ -166,23 +165,12 @@ private:
 
 std::ostream& operator<<(std::ostream& os, const Vector& vector)
 {
-    if (!vector.isEmpty())
+    os << "{";
+    int i;
+    for (i = 0; i < vector.size(); i++) 
     {
-        os << "{";
-        int i;
-        for (i = 0; i < vector.size(); i++) 
-        {
-            os << vector[i];
-            if (i + 1 != vector.size()) os << ",";
-        }
-        os << "}";
-        return os;
+        os << vector[i] << (i == vector.size() - 1 ? "" : ",");
     }
-    else
-    {
-        os << "{}";
-        return os;
-    }
+    os << "}";
+    return os;
 }
-
-// Nonmember function operators go here

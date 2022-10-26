@@ -57,27 +57,27 @@ generate(size_t n)
     auto v = std::vector<Vector>(n);
     // Set some values
     for (size_t i = 0; i < NDIM; ++i)
+    {
+        for (size_t j = 0; j < n; ++j)
         {
-            for (size_t j = 0; j < n; ++j)
-                {
-                    auto& vv = v[j]; // Reference to one of your Vectors
-                    vv[i] = (value) i+j;
-                }
+            auto& vv = v[j]; // Reference to one of your Vectors
+            vv[i] = (value) i+j;
         }
+    }
     return v;
 }
 
 // Takes the number of Vectors used as an argument
 void testAdd(size_t n)
 {
-    auto vv = generate(n);
+    auto v = generate(n);
 
     // Add to each Vector his right neighbour
     for (size_t i = 1; i < n; ++i)
-        vv[i-1] += vv[i];
+        v[i-1] += v[i];
     // Sum them up
-    auto sum = Vector(); // Expected to be all zeros
-    for (const auto& other : vv)
+    auto sum = Vector{}; // Expected to be all zeros
+    for (const auto& other : v)
         sum = sum + other;
     // Print for verif
     std::cout << sum << '\n';
