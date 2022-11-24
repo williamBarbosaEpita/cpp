@@ -1,0 +1,676 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 7 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Contents 19 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Outlines 11 0 R /PageLabels 20 0 R /PageMode /UseNone /Pages 17 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author () /CreationDate (D:20221124135333+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20221124135333+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title () /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 6 /First 12 0 R /Last 16 0 R /Type /Outlines
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 765.0236 0 ] /Next 13 0 R /Parent 11 0 R /Title (Goal)
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 186.0236 0 ] /Next 14 0 R /Parent 11 0 R /Prev 12 0 R /Title (Extension for this exercise)
+>>
+endobj
+14 0 obj
+<<
+/Count 1 /Dest [ 8 0 R /XYZ 57.02362 687.0236 0 ] /First 15 0 R /Last 15 0 R /Next 16 0 R /Parent 11 0 R 
+  /Prev 13 0 R /Title (Restrictions)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 8 0 R /XYZ 57.02362 612.0236 0 ] /Parent 14 0 R /Title (Challenge)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /XYZ 57.02362 564.0236 0 ] /Parent 11 0 R /Prev 14 0 R /Title (Bonus)
+>>
+endobj
+17 0 obj
+<<
+/Count 2 /Kids [ 6 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+18 0 obj
+<<
+/Length 7166
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Goal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 714.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .759272 Tw (This is a follow-up exercice to selection_sort_file. Here we push the idea of generic programming one step) Tj T* 0 Tw (further by using ideas from meta-programming \(template specialization\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 660.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.464417 Tw (As before, you are given a filename as input and you need to read its content and then output a sorted) Tj T* 0 Tw .244417 Tw (version of this content. To do so, we will load the file into a container, then use my_selection_sort to sort the) Tj T* 0 Tw .631917 Tw (container. As before, the type of container that has to be used is defined within the input file. This input file) Tj T* 0 Tw (has the following format:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 654.0236 cm
+Q
+q
+1 0 0 1 57.02362 642.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 630.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([iufdcs] value type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 618.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([lvd] container type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 606.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (value0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 594.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (value1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 582.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (value2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 570.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 558.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 558.0236 cm
+Q
+q
+1 0 0 1 57.02362 540.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The first line contains a char corresponding to the type of the values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 534.0236 cm
+Q
+q
+1 0 0 1 57.02362 426.0236 cm
+1 1 1 rg
+n 0 108 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 90 481.2283 -18 re f*
+1 1 1 rg
+n 0 72 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 54 481.2283 -18 re f*
+1 1 1 rg
+n 0 36 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 18 481.2283 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (i) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (u) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (unsigned integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (f) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (float) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (d) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (double) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (char) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (std::string) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 90 m 481.2283 90 l S
+n 0 72 m 481.2283 72 l S
+n 0 54 m 481.2283 54 l S
+n 0 36 m 481.2283 36 l S
+n 0 18 m 481.2283 18 l S
+n 199.129 0 m 199.129 108 l S
+n 0 108 m 481.2283 108 l S
+n 0 0 m 481.2283 0 l S
+n 0 0 m 0 108 l S
+n 481.2283 0 m 481.2283 108 l S
+Q
+Q
+q
+1 0 0 1 57.02362 426.0236 cm
+Q
+q
+1 0 0 1 57.02362 408.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The second line corresponds to the type of container that HAS to be used for sorting:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 402.0236 cm
+Q
+q
+1 0 0 1 57.02362 348.0236 cm
+1 1 1 rg
+n 0 54 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 481.2283 -18 re f*
+1 1 1 rg
+n 0 18 481.2283 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (l) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (std::list) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (v) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (std::vector) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (d) Tj T* ET
+Q
+Q
+q
+1 0 0 1 205.129 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (std::deque) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 36 m 481.2283 36 l S
+n 0 18 m 481.2283 18 l S
+n 199.129 0 m 199.129 54 l S
+n 0 54 m 481.2283 54 l S
+n 0 0 m 481.2283 0 l S
+n 0 0 m 0 54 l S
+n 481.2283 0 m 481.2283 54 l S
+Q
+Q
+q
+1 0 0 1 57.02362 348.0236 cm
+Q
+q
+1 0 0 1 57.02362 330.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (All other lines correspond to values \(one value per line\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 300.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.111772 Tw (You program must then create a new file with the name "sorted_values.txt" containing the value type, the) Tj T* 0 Tw (container type and the sorted values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 294.0236 cm
+Q
+q
+1 0 0 1 57.02362 282.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 270.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([iufdcs] \(copied\) value type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 258.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([lvd] \(copied\) container type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 246.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (sorted value0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 234.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (sorted value1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 222.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (sorted value2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 210.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 198.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 198.0236 cm
+Q
+q
+1 0 0 1 57.02362 165.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Extension for this exercise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 147.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (Optimising read_file_to_cont for chars) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 93.02362 cm
+q
+BT 1 0 0 1 0 38 Tm .365636 Tw 12 TL /F1 10 Tf 0 0 0 rg (Note that when reading a file containing chars \(that is the type identifier is c\), all lines in the file only contain) Tj T* 0 Tw .08713 Tw (two characters: the char itself, followed by a newline. We want to use this knowledge to optimize the function) Tj T* 0 Tw .059897 Tw (void read_file_to_cont\(XXX) Tj (& f, XXX c\) such that is does not use the generic ) Tj /F4 10 Tf (operator) Tj (>) Tj (>) Tj /F1 10 Tf ( but takes advantage) Tj T* 0 Tw (of this specific knowledge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 75.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (Modifying the sorting itself) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<<
+/Length 2364
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Instead of sorting all types in ascending order, we want them to behave differently. In particular we want) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 747.0236 cm
+Q
+q
+1 0 0 1 57.02362 699.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 42 cm
+Q
+q
+1 0 0 1 20 42 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.02755 Tw (All integral types to be sorted: first all even values, then all odd ones. Within even/odd values in) Tj T* 0 Tw (ascending order) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (All other types in descending order) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 57.02362 699.0236 cm
+Q
+q
+1 0 0 1 57.02362 666.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Restrictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 624.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .845197 Tw 12 TL /F1 10 Tf 0 0 0 rg (You may not include ) Tj /F4 10 Tf (algorithm) Tj /F1 10 Tf ( or use any other third party lib. You must use your selection_sort algorithm) Tj T* 0 Tw 1.661223 Tw (implemented in the last exercise. You must use generic implementations, you can stick to the proposed) Tj T* 0 Tw (prototypes are design your own layout.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 594.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf .133333 .133333 .133333 rg (Challenge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 576.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Implementations faster than our \(suboptimal but not bad\) reference implementation get extra points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 543.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Bonus) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .139913 Tw (Another bonus is given to an implementation if it is at least 10% faster than any of the other implementations) Tj T* 0 Tw (\(including our reference implem\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+20 0 obj
+<<
+/Nums [ 0 21 0 R 1 22 0 R ]
+>>
+endobj
+21 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+22 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000360 00000 n 
+0000000472 00000 n 
+0000000587 00000 n 
+0000000792 00000 n 
+0000000897 00000 n 
+0000001102 00000 n 
+0000001207 00000 n 
+0000001465 00000 n 
+0000001539 00000 n 
+0000001644 00000 n 
+0000001785 00000 n 
+0000001950 00000 n 
+0000002047 00000 n 
+0000002153 00000 n 
+0000002219 00000 n 
+0000009437 00000 n 
+0000011853 00000 n 
+0000011903 00000 n 
+0000011937 00000 n 
+trailer
+<<
+/ID 
+[<eba1f782a6ebc85d7de7b3ae75c9b9b6><eba1f782a6ebc85d7de7b3ae75c9b9b6>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 10 0 R
+/Root 9 0 R
+/Size 23
+>>
+startxref
+11971
+%%EOF
